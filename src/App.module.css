@@ -1,0 +1,15 @@
+.app {
+  display: grid;
+  grid-template-rows: 200px 1fr;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .app {
+    grid-template-rows: 100px 1fr;
+  }
+  
+
+}
